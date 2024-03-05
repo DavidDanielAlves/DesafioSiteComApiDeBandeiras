@@ -1,0 +1,15 @@
+:root {
+    /* dark mode */
+    --dark-blue: hsl(209, 23%, 22%); /* dark mode background */
+    --very-dark-blue: hsl(207, 26%, 17%); /* light mode text*/
+    --text-very-dark-blue: hsl(200, 15%, 8%); /* light mode */
+    --dark-gray: hsl(0, 0%, 52%);
+    --light-gray: hsl(0, 0%, 98%);
+    --very-light-gray: rgba(0, 0, 0, 0.1);
+    --white: hsl(0, 0%, 100%);
+
+    /* font */
+    --font-family: 'Nunito Sans', sans-serif;
+    --homepage-items-font-size: 14px;
+    --detail-page-font-size: 16px;
+}

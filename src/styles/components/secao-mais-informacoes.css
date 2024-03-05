@@ -1,0 +1,45 @@
+@import './variaveis.css';
+
+.mais-informacoes-principal {
+    width: 90%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+.botao-voltar {
+    padding: 1em 2em;
+    box-shadow: 0 0 5px 3px var(--very-light-gray);
+    text-decoration: none;
+    color: black;
+}
+
+.mais-informacoes-bandeira {
+    margin: 5em 0 0 0;
+}
+
+.mais-informacoes-bandeira img{
+    width: 100%;
+}
+
+.mais-informacoes-bandeira h2 {
+    margin: 1em 0;
+}
+
+.container-informacoes {
+    margin-bottom: 2em;
+}
+
+.container-informacoes p,
+.container-mais-informacoes p {
+    margin-bottom: 0.5em;
+}
+
+.pais-borda {
+    padding: .7em 1.5em;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px var(--very-light-gray);
+    margin-right: 1em;
+    margin-bottom: .5em;
+}

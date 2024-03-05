@@ -1,0 +1,46 @@
+@import './variaveis.css';
+
+.pesquisar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pesquisar-pais input {
+    background-image: url('../../imgs/icone-lupa.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 25px;
+    width: 100%;
+    padding: 1em 3em 1em 4em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px var(--very-light-gray);
+    margin-bottom: 2.5em;
+    outline: none;
+}
+
+.pesquisar-pais input:focus {
+    background-image: none;
+    padding: 1em 2em;
+}
+
+.pesquisar select {
+    align-self: flex-start;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 1em 5em 1em 2em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 3px var(--very-light-gray);
+    border: none;
+    cursor: pointer;
+    background-image: url('../../imgs/angle-down.png');
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    outline: none;
+}

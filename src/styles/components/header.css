@@ -1,0 +1,33 @@
+@import './variaveis.css';
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 1em;
+    box-shadow: 0 3px 5px 0 var(--very-light-gray);
+    margin: 0 0 1.5em 0;
+}
+
+.cabecalho h1 {
+    font-size: 1rem;
+}
+
+.botao-change-theme {
+    width: fit-content;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.botao-change-theme i {
+    transform: rotate(-30deg);
+    font-size: 15px;
+}
+
+.botao-change-theme span {
+    font-weight: 600;
+}

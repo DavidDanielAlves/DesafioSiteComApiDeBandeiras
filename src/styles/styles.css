@@ -1,0 +1,8 @@
+@import './components/base.css';
+@import './components/body.css';
+@import './components/header.css';
+@import './components/main.css';
+@import './components/pesquisar.css';
+@import './components/bandeiras.css';
+@import './components/dark-mode.css';
+@import './components/responsivo.css';

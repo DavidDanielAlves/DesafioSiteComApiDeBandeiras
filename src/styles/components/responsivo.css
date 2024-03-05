@@ -1,0 +1,116 @@
+@media (min-width: 1440px) {
+    /* cabecalho */
+    .cabecalho {
+        padding: 2em 5em;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.5rem;
+    }
+
+    .botao-change-theme i {
+        font-size: 18px;
+    }
+
+    .botao-change-theme span {
+        text-wrap: nowrap;  
+    }
+
+    /* pesquisar */
+    .pesquisar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .pesquisar-pais input {
+        width: 500px;
+    }
+
+    .pesquisar-pais input:focus {
+        background-image: url('../../imgs/icone-lupa.png');
+        padding: 1em 3em 1em 4em;
+    }
+
+    /* bandeiras */
+    .bandeiras {
+        justify-content: space-around;
+    }
+
+    .container-mais-informacoes {
+        margin-top: 1rem;
+    }
+
+    .mais-informacoes-bandeira {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .mais-informacoes-bandeira img{
+        width: 50%;
+    }
+
+    .divs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner-divs {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1439px){
+    .cabecalho {
+        padding: 2em 5em;
+    }
+
+    .principal {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bandeiras {
+        justify-content: space-around;
+    }
+
+    .pesquisar {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .pesquisar-pais input {
+        width: 350px;
+    }
+
+    .container-mais-informacoes {
+        margin-top: 1rem;
+    }
+
+    .mais-informacoes-bandeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .mais-informacoes-bandeira img{
+        width: 50%;
+    }
+
+    .divs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner-divs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+    
+}

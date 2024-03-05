@@ -1,0 +1,44 @@
+@import './variaveis.css';
+
+.body-alternative {
+    background-color: var(--dark-blue);
+    color: var(--white);
+
+    .botao-change-theme {
+        color: var(--white);
+    }
+
+
+    #input-pesquisar-pais {
+        background-color: var(--dark-blue);
+        color: var(--white);
+    }
+
+    #input-pesquisar-pais::placeholder {
+        color: var(--white);
+    }
+
+    .pesquisar select {
+        background-color: var(--dark-blue);
+        color: var(--white);
+    }
+
+    .bandeira a {
+        color: var(--white);
+    }
+
+    .bandeira-descricao #populacao,
+    .bandeira-descricao #region,
+    .bandeira-descricao #capital {
+        color: var(--dark-gray);
+    }
+
+    .botao-voltar {
+        color: var(--white);
+    }
+
+    .pais-borda {
+        color: var(--white);
+    }
+}
+

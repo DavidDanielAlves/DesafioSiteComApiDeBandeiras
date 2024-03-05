@@ -1,0 +1,6 @@
+@import './components/base.css';
+@import './components/body.css';
+@import './components/header.css';
+@import './components/secao-mais-informacoes.css';
+@import './components/dark-mode.css';
+@import './components/responsivo.css';
