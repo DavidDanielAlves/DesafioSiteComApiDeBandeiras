@@ -8,7 +8,7 @@ export async function pegarEMostrarPaises() {
 
     paises.forEach(pais => {
         secaoBandeiras.innerHTML +=
-            `<a href="../../pages/mais-informacoes.html">
+            `<a href="./src/pages/mais-informacoes.html">
                 <div class="bandeira">
                     <div class='box'>
                         <img src="${pais.flag}" alt="pais: ${pais.name}">
