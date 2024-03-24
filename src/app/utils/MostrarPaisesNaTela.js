@@ -2,11 +2,12 @@ import { secaoBandeiras } from "../main.js";
 import { pesquisarInput, pesquisarSelect, inputPesquisarPais, selectFilterRegion } from "./Pesquisar.js";
 
 export async function pegarEMostrarPaises() {
-    const url = `http://localhost:3000/dados`;
+    const url = `https://daviddanielalves.github.io/apiBandeiras/data.json`;
     const response = await fetch(url);
     const paises = await response.json();
+    const listaDePaises = paises.dados
 
-    paises.forEach(pais => {
+    listaDePaises.forEach(pais => {
         secaoBandeiras.innerHTML +=
             `<a href="./src/pages/mais-informacoes.html">
                 <div class="bandeira">
