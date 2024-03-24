@@ -5,9 +5,11 @@ export async function pegarEMostrarPaises() {
     const url = `https://daviddanielalves.github.io/apiBandeiras/data.json`;
     const response = await fetch(url);
     const paises = await response.json();
-    const listaDePaises = paises.dados
+    const listaDePaises = localStorage.setItem("paises", JSON.stringify(paises.dados)) || [];
+    listaDePaises.push(paises.dados);
+    const paisesNaTela = JSON.parse(localStorage.getItem("paises")) || [];
 
-    listaDePaises.forEach(pais => {
+    paisesNaTela.forEach(pais => {
         secaoBandeiras.innerHTML +=
             `<a href="./src/pages/mais-informacoes.html">
                 <div class="bandeira">
@@ -50,7 +52,7 @@ export async function pegarEMostrarPaises() {
     if (window.location) {
         bandeiras.forEach((bandeira, index) => {
             bandeira.addEventListener('click', () => {
-                const paisClicado = paises[index];
+                const paisClicado = paisesNaTela[index];
 
                 sessionStorage.setItem('paisClicado', JSON.stringify(paisClicado));
             })
