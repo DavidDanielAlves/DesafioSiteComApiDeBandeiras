@@ -1,5 +1,4 @@
-{
-  "dados": [
+[
   {
     "name": "Afghanistan",
     "topLevelDomain": [".af"],
@@ -16823,4 +16822,3 @@
     "independent": true
   }
 ]
-}
